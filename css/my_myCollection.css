@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+body{ font-family:"微软雅黑";}
+.clear{ clear:both;}
+a{ text-decoration:none;}
+.sec{ width:92%; margin:0 auto; margin-top:2px; padding-top:0.28rem; border-bottom:1px solid #e6e6e6; padding-bottom:0.253rem;}
+.sec_top{ line-height:0.453rem;}
+.sec_top span{ font-size:0.453rem; color:#1a1a1a;}
+.sec_text{line-height:0.373rem; font-size:0.373rem; color:#808080; margin-top:0.16rem; text-align:justify;}
+.sec_text span{ line-height:0.533rem;}
+
+.sec_footer{ margin-top:0.5rem; clear:both;}
+.time {  float:left; font-size:0.346rem;}
+.time span{ font-size:0.346rem; color:#808080;}
+
+.footer_right{ float:right;}
+.footer_right img{ position:relative; top:0.026rem;}
+.comment{ color:#51d74e; font-size:0.293rem; float:left;}
+.comment span{ display:inline-block;}
+.comment span:last-child{ margin-left:0.053rem;}
+.comment img { width:0.333rem; height:0.28rem;}
+.collect{ color:#51d74e; font-size:0.293rem; float:left; margin-left:0.466rem;}
+.collect span{ display:inline-block;}
+.collect span:last-child{ margin-left:0.053rem;}
+.collect img { width:0.333rem; height:0.333rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

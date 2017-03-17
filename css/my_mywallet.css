@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+body{ background:#f0eff5; font-family:"微软雅黑";}
+.clear{ clear:both;}
+img{ vertical-align:middle;}
+.top{ height:0.266rem; background:#f0eff5;}
+
+.map{ width:100%; background:#fff;}
+.center{ width:92%; margin:0 auto; font-size:0.48rem; background:#fff;}
+.center div span{ color:#1a1a1a;}
+.center ul li{ list-style:none; height:1.226rem; line-height:1.226rem; border-bottom:1px solid #e6e6e6;}
+
+.lt{ float:left;}
+.rt{ float:right; color:#999999;}
+.arrow{ display:inline-block; margin-left:0.36rem;}
+.arrow img{ width:0.173rem; height:0.346rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

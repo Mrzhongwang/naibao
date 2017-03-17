@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+/*头部部分*/
+*{ margin:0; padding:0;}
+img{ vertical-align:middle; display:inline-block;}
+body{ font-family:"微软雅黑";}
+
+
+/*内容部分*/
+.sec_hr{ height:3px; background:#f0eff5;}
+.sec_title { width:92%; margin:0 auto; margin-top:0.52rem; font-size:0.53rem;}
+.sec_title span{ font-size:0.53rem;}
+.time { width:92%; margin:0 auto; margin-top:0.3rem; font-size:0.32rem;}
+.time span{ font-size:0.32rem; color:#4c4c4c;}
+.hr_two{ height:1px; width:92%; margin:0 auto; background:#f0eff5; margin-top:0.32rem;}
+.sec_img{ margin:0 auto; text-align:center; margin-top:0.3rem;}
+.sec_img img{width:92%; height:5.333rem;}
+.txt{ width:92%; margin:0 auto; margin-top:0.14rem;}
+.txt p{ text-indent:1em; font-size:0.45rem; color:#4c4c4c; text-align:justify; line-height:0.70666rem;}
+.sec_hr_two{ margin-top:0.47334rem; height:1px;}
+
+
+/*底部*/
+.ft{ width:92%; margin:0 auto; margin-bottom:1.293rem;}
+.ft_top{ margin-top:0.45333rem;}
+.ft_top_img {padding-right:0.12rem;}
+.ft_top_img img{ width:0.426rem; height:0.374rem; vertical-align:inherit; padding-left:0.06666rem;}
+.ft_top_text{ font-size:0.346rem; color:#666;}
+
+
+.ft_center{ margin-top:0.58666rem; padding-left:0.06666rem; position:relative; height:0.8rem;}
+.ft_center img{ width:0.8rem; height:0.8rem; vertical-align:inherit;}	
+.abs_one{ font-size:0.42666rem; position:absolute; top:0.24rem; left:1rem; color:#333333; display:inline-block;}
+.abs_two{ color:#666; font-size:0.32rem; float:right; line-height:1.0333rem;}
+
+.answer span{ font-size:0.4rem; text-indent:1rem; display:inline-block; margin-top:0.293rem; color:#666; text-align:justify;}
+
+.ft_mian{ border-bottom:1px solid #d9d9d9; padding-bottom:0.6266rem;}
+.last{ text-align:center; font-size:0.373rem; margin-top:0.546rem;}
+.last span{ font-size:0.373rem; color:#f65c5c; display:inline-block; height:1.133rem;}
+
+/*底部固定栏*/
+.Float{ border:1px solid #d9d9d9; height:1.28rem; border-bottom:none; border-right:none;position:fixed; bottom:0; width:100%; background:#FFF;}
+.Float ul{ width:92%; margin:0 auto; height:0.88rem; margin-top:0.2rem;}
+.Float ul li{ float:left; list-style:none; width:33%; text-indent:17.2%; font-size:0.32rem; height:0.88rem; border-right:1px solid #d9d9d9; line-height:0.99rem;}
+.Float ul li:first-child{ text-indent:11.2%; width:31.73%;}
+.Float ul li:last-child{ text-indent:17.6%; width:31.73%; border:none;}
+.li_center{ width:36.23%;}
+
+
+.share_img{ position:absolute; top:0.386rem; left:8.8%; line-height:0; text-indent:0px;}
+.share_img img{ width:0.426rem;; height:0.546rem; vertical-align:inherit;}
+.comment_img{ position:absolute; line-height:0; text-indent:0px; top:0.44rem; left:42.8%;}
+.comment_img img{ width:0.546rem; height:0.466rem;}
+.collection_img{ position:absolute; line-height:0; text-indent:0px; top:0.386rem; left:74%;}
+.collection_img img{ width:0.613rem; height:0.546rem;}
+
+
+/*评论输入栏*/
+.entry{ height:1.3rem; width:100%; border:1px solid #cccccc; background:#ebeaef; position:fixed; bottom:0; display:none;}
+.entry_text{ display:inline-block; margin-left:3.86%; margin-top:0.186rem;} 
+.entry_text input{ width:7.3rem; height:0.9rem; border:1px solid #cccccc; border-radius:0.12rem; font-size:0.453rem; text-indent:2.06rem; color:#b2b2b2;}
+.sbumit{ width:1.70rem; background:#0ab807; height:0.906rem; display:inline-block; position:absolute; top:0.23rem;border-radius:0.12rem; left:78.5%; border:1px solid #cccccc; color:#FFF; font-size:0.453rem; text-align:center; line-height:0.906rem;}
+
+
+

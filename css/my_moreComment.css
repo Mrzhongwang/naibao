@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+bady{ font-family:"微软雅黑";}
+.clear{ clear:both;}
+img{ border:none; border-radius:0.04rem; overflow:hidden;}
+.map{ width:92%; margin:0 auto; margin-top:0.4rem;}
+.map_center{ border-bottom:1px solid #d9d9d9; margin-bottom:0.52rem;}
+.img{ float:left;}
+.img img{ width:0.79rem; height:0.79rem;}
+
+.txt{ float:left; margin-left:0.21rem; line-height:0.426rem; margin-top:0.28rem; font-size:0.426rem;}
+.row_one{ clear:both;}
+.name{ color:#333333;  display:inline-block; margin-left:0.213rem;}
+.time{ font-size:0.32rem; color:#666666; display:inline-block; float:right;  position:relative; top:0.28rem;}
+
+
+.center{ margin-top:0.26rem; margin-bottom:0.64rem;}
+.center p{ font-size:0.4rem; color:#666666; text-indent:1.013rem; text-align:justify;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

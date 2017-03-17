@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{ vertical-align:middle;}
+.lt{ float:left;}
+.rt{ float:right;}
+.clear{ clear:both;}
+
+
+header{  position:fixed; top:0;  width:100%; background:#fff; z-index:100;height:2.02rem;overflow:hidden;border-bottom: 1px solid #eee}
+.search{width:89.2%; height:0.76rem; margin:0.24rem auto 0 auto;border:1px solid #999;border-radius:0.08rem;position:relative;}
+.searchBox img{display: inline-block;width:0.36rem;height:0.75rem;position:absolute;top:0.01rem;right:0;}
+.searchBox{display:inline-block; width:24.2%;height:0.76rem;position:absolute;top:0;left:0;}
+.inputBox{font-family:"微软雅黑"; border:none;outline:none;width:72.6%; height:0.34rem; padding:0.21rem 2% 0.21rem 0; font-size:0.34rem;position: absolute;top:0;right:0;background-color: transparent;}
+
+
+/*药的大类名字部分*/
+.name_map{ clear:both;height:1.04rem;position:relative;}
+.name_map span{color:#999;display: inline-block;float:none;height:0.76rem;line-height:0.76rem;margin-top:0.28rem;font-size:0.42rem;text-align: center;width:50%;position:absolute;top:0;}
+.name_map .present{color:#333;}
+.positionLt{left:0;}
+.positionRt{right:0;}
+
+/*药品详情*/
+section{ margin-top:2.08rem; width:100%;}
+.drug-message{width:98%;margin:0 auto;position:relative;top:2.1rem;overflow: hidden;}
+.drug-detail{width:49.6%;background-color: #fff;height:3rem;}
+
+/*页脚*/
+footer{
+    width:100%;
+    height:1.3rem;
+    background:#fff;
+    border-top:1px solid #e6e6e6;
+    position:fixed;
+    left:0;
+    bottom:0;
+    z-index:100;
+}
+footer ul{
+    width:81%;
+    margin:0 auto;
+    height:0.5rem;
+    /*    padding-top:0.8rem*/
+}
+footer ul li{
+    float:left;
+    width:30%;
+    text-align:left;
+    padding-top:0.16rem;
+}
+footer ul li:last-child{width:10%;}
+footer ul li a{
+    float:left;
+    width:0.67rem;
+    height:0.52rem;
+    padding-top:0.66rem;
+    background:url("../img/iconlist.png") no-repeat;
+    background-size:10.08rem 1.25rem ;
+    color:#999;
+    font-size:0.29rem;
+    text-align: center;
+}
+footer ul li a.function_1{background-position:-2.5rem -0.31rem;}
+footer ul li a.function_2{background-position:-5.31rem -0.31rem;}
+footer ul li a.function_3{background-position:-6.28rem -0.31rem;}
+footer ul li a.function_4{background-position:-1.18rem -0.3rem;}
+/*footer ul li span{color:#d0d0d0;font-size:0.29rem;}*/
+footer ul li a.function_2{ color:#00cc00;}
+
+
+/*滚动条*/
+.swiper-container-horizontal>.swiper-scrollbar{top:2.02rem;height:0.08rem;position:fixed;left:1%;}
+.swiper-scrollbar-drag{background: #afafaf;height:0.08rem;}
+
+
+
+
+
+

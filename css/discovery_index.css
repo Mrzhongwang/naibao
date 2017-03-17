@@ -1,0 +1,226 @@
+.hide{display: none;}
+.show{display: block;}
+/*奶宝育儿*/
+/*头部*/
+header{background-color: #fff;height:1.05rem;font:normal 0.45rem/1.05rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;border-bottom:1px solid #ddd;position:fixed;z-index:100;top:0;}
+.lt{float:left;border-right:1px solid #ddd;position:relative;color:#000;}
+.rt{float:right;color:#999;}
+header a{
+    width:49.8%;
+    height:1.05rem;
+    line-height:1.05rem;
+    text-align: center;
+    color:#999;
+}
+header a b{
+    display: inline-block;
+    position:absolute;
+    right:0.62rem;
+    top:0.36rem;
+    width:0.3rem;
+    height:0.31rem;
+}
+header a .crossDown{background: url('../img/bottom_across1.png') right top no-repeat;background-size:0.3rem 0.29rem;}
+header a .crossTop{background: url('../img/bottom_across2.png') right top no-repeat;background-size:0.3rem 0.29rem;}
+/*弹窗*/
+.popup{
+    width:4.04rem;
+    height:7.35rem;
+    background: url('../img/box.png') no-repeat;
+    background-size:4.04rem 7.31rem;
+    position:fixed;
+    left:4.5%;
+    /*top:1.12rem;*/
+    top:-7.31rem;
+    z-index:50;
+}
+.popup .pop_content{
+    width:100%;
+    position:absolute;
+    top:0.18rem;
+    font:normal 0.45rem/1.174rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+}
+.pop_content li{
+    width:85%;
+    border-bottom: 1px solid #999;
+    margin:0 auto;
+    position:relative;
+    height:1.174rem;
+    letter-spacing: 0.01rem;
+}
+.pop_content li:last-child{border:none;}
+.pop_content .toInfo_1{letter-spacing:0.12rem;}
+.pop_content .toInfo_2{letter-spacing:0.31rem;}
+.pop_content li span{position:absolute;left:0.36rem;top:0;}
+
+/**/
+.block{width:100%;height:0;}
+/*主体*/
+article{width:100%;padding-top:1.05rem;overflow-y:scroll;-webkit-overflow-scrolling: touch;overflow-scrolling: touch;  }
+article .wrap:last-child{margin-bottom:0.3rem;}
+.title{
+    display:block;
+    width:90.4%;
+    margin:0 auto;
+    height:1.56rem;
+    font:normal 0.48rem/1.56rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+    text-align:center;
+    color:#000;
+}
+.content{width:90.4%;margin:0 auto;background-color:#fff;border:1px solid #dedede;border-radius:0.16rem;}
+.content section{width:100%;border-top:0.028rem solid #eee;}
+.content section:first-child{border-top:none;}
+/*主体内容*/
+.swiper-container-horizontal>.swiper-scrollbar{top:1.05rem;height:0.08rem;position:fixed;left:1%;}
+.swiper-scrollbar-drag{background: #afafaf;height:0.08rem;}
+.content .main_article a,.content .sub_article a{display:block;width:93.8%;margin:0 auto;}
+.sub_article{height:1.6rem;}
+.content .main_article a{
+    padding:0.32rem 0 0.28rem;
+    height:4.746rem;
+    position:relative;
+}
+.main_article a img{width:100%;height:100%;}
+.main_article a .title_content{
+    width:93.6%;
+    padding: 0.17rem 4.4% 0.22rem 2%;
+    color:#fff;
+    background-color: #000;
+    opacity: 0.8;
+    position:absolute;
+    left:0;
+    bottom:0.28rem;
+}
+.title_content span{
+    display: inline-block;
+    font:normal 0.48rem/0.6rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+    letter-spacing:0.04rem;
+    /*margin: 0.2rem 4.1% 0.23rem 3.2%;*/
+    /* position:absolute;
+    left:3.2%;
+    top:0.21rem; */
+}
+.content .sub_article a{margin:0.12rem auto;height:1.36rem;position:relative;}
+.sub_article a .titleContent{
+    display:table-cell;
+    vertical-align:middle;
+    margin-top:0.08rem;
+    width:6.08rem;
+    height:1.32rem;
+    /* position:absolute;
+    left:0;
+    top:0.08rem; */
+}
+.titleContent span{
+    display: inline-block;
+    color:#000;
+    font:normal 0.42rem/0.58rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+    /*font-size:0.42rem;*/
+    /*line-height:0.58rem;*/
+    /*font-weight: normal;*/
+}
+.sub_article a div{position:absolute;right:0;top:0; overflow:hidden;}
+.sub_article a div img{
+    vertical-align:middle; transform:scale(1.78,1); width:1.36rem; height:1.36rem; position:relative; left:-0.2rem;
+    -moz-transform:scale(1.78,1);
+    -webkit-transform:scale(1.78,1);
+    -o-transform:scale(1.78,1);
+    -ms-transform:scale(1.78,1);
+}
+
+/*页脚*/
+footer{
+    width:100%;
+    height:1.3rem;
+    background:#fff;
+    border-top:1px solid #e6e6e6;
+    position:fixed;
+    left:0;
+    bottom:0;
+    z-index:100;
+}
+footer ul{
+    width:81%;
+    margin:0 auto;
+    height:0.5rem;
+    /*    padding-top:0.8rem*/
+}
+footer ul li{
+    float:left;
+    width:30%;
+    text-align:left;
+    padding-top:0.16rem;
+}
+footer ul li:last-child{width:10%;}
+footer ul li a{
+    float:left;
+    width:0.67rem;
+    height:0.52rem;
+    padding-top:0.66rem;
+    background:url("../img/iconlist.png") no-repeat;
+    background-size:10.08rem 1.25rem ;
+    color:#999;
+    font-size:0.29rem;
+    text-align: center;
+}
+footer ul li a.function_1{background-position:-2.5rem -0.31rem;}
+footer ul li a.function_2{background-position:-4.38rem -0.31rem;}
+footer ul li a.function_3{background-position:-7.22rem -0.31rem;}
+footer ul li a.function_4{background-position:-1.18rem -0.3rem;}
+/*footer ul li span{color:#d0d0d0;font-size:0.29rem;}*/
+footer ul li a.function_3{ color:#00cc00;}
+
+/*疫苗提醒*/
+.swiper-y{margin-bottom:0.053rem;}
+/*宝宝信息*/
+.get-age{display:none;}
+/*.baby-box{position:fixed;top:0;left:0;z-index:50;width:100%;}*/
+.header-content{
+    width:100%;
+    /*height:4.28rem;*/
+    padding-top:1.05rem;
+    background:#fff;
+}
+.header-content .img{width:21.6%;margin:0 auto;padding-top:0.16rem;height:2.16rem;}
+.img img{width:2.16rem;height:2.16rem;border-radius:1.08rem;}
+.content-name{text-align:center;height:0.72rem;line-height:0.62rem;}
+/*.content-name a{display: inline-block;height:0.52rem;}*/
+.content-name b{display:inline-block;font-size:0.52rem;color:#1a1a1a;font-weight:normal;}
+.content-name .female{display:inline-block;margin-left:0.12rem;width:0.39rem;height:0.52rem;background:url('../img/female.jpg') no-repeat;background-size:0.39rem 0.52rem;position:relative;top:0.06rem;}
+.content-name .male{display:inline-block;margin-left:0.12rem;width:0.5rem;height:0.52rem;background:url('../img/male.jpg') no-repeat;background-size:0.5rem 0.52rem;position:relative;top:0.06rem;}
+.content-message{text-align:center;height:0.56rem;line-height:0.46rem;position:relative;}
+.content-message span{font-size:0.4rem;color:#333;}
+.content-message .baby-age{color:#808080;margin-left:0.21rem;}
+.content-day{text-align:center;height:0.7rem;line-height:0.6rem;font-size:0.4rem;color:#333;}
+.content-day .toDay{font:normal 0.48rem/0.7rem 'Microsoft YaHei';margin:0 0.2rem;color:#00c20c;}
+/*前进按钮*/
+.swiper-button-prev{background:url('../img/backLeft.png') no-repeat;left:13.6%;}
+.swiper-button-next{background:url('../img/backRight.png') no-repeat;right:13.6%;}
+.swiper-button-prev,.swiper-button-next{
+    background-size:0.36rem 0.64rem;
+    top:3.08rem;
+}
+.text{height:5rem;background-color: #fff;margin-top:0.5rem;width:100%;}
+/*疫苗内容*/
+.vaccine{overflow-y:scroll;-webkit-overflow-scrolling: touch;overflow-scrolling: touch;}
+.vaccine-content{background-color: #fff;border-bottom:0.13rem solid #f0eff5;width:100%;padding-top:0.364rem;}
+.vaccine-ad{width:100%;height:7.76rem;background: url('../img/vaccine-ad.png') no-repeat;background-size:100% 7.76rem;}
+.vaccine-message,.vaccine-detail{display: block;width:92%;margin:0 auto;}
+.vaccine-content .vaccine-message{height:0.52rem;position: relative;}
+.vaccine-message .vaccine-age{font:0.44rem/0.52rem 'Microsoft YaHei';color:#333;display:inline-block;position:absolute;top:0;left:0;}
+.vaccine-message .vaccine-time{font:0.36rem/0.52rem 'Microsoft YaHei';color:#808080;display:inline-block;position:absolute;top:0;left:17.8%;}
+.vaccine-content .vaccine-detail{height:1.24rem;line-height:1.24rem;}
+.free{
+    float:left;
+    width:1.61rem;
+    height:1.24rem;
+    background: url('../img/free.png') no-repeat;
+    background-size:1.16rem 1.24rem;
+}
+.vaccine-name{float:left;font-size:0.43rem;color:#666;width:3.7rem;}
+.vaccine-count{float:left;font-size:0.43rem;color:#666;width:1.65rem;text-align:right;}
+.vaccine-situation{float:right;width:1.8rem;text-align: right;font-size:0.4rem;}
+.vaccine-situation_1{color:#00c20c;}
+.vaccine-situation_2{color:#eb5448;}
+.vaccine-situation_3{color:#ffc000;}
+.border{border-bottom:1px solid #e6e6e6;}

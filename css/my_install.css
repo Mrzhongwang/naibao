@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+body{ background:#f0eff5;}
+.hr{ height:0.133rem; background:#f0eff5;}
+.sec{ background:#FFF;}
+.map{ width:92%; margin:0 auto; background:#fff;}
+.map ul li{ font-size:0.426rem; list-style:none; height:1.226rem; line-height:1.226rem; border-bottom:1px solid #e6e6e6;}
+
+.center{ height:1.226rem; line-height:1.226rem; }
+.center span{ color:#1a1a1a; display:inline-block;  font-size:0.426rem;}
+.rt{ float:right; position:relative;}
+.center img{ width:0.173rem; height:0.346rem;}
+
+
+
+.ui-switch {
+    position: absolute;
+    font-size: 0.213rem;
+    right:0.093rem;
+    top:0;
+    margin-top: -0.213rem;
+    width: 0.933rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+.ui-switch input {
+    width: 0.933rem;
+    height:0.5rem;
+    position: absolute;
+    top:0.55rem;;left: 0;  
+    z-index: 2;
+    border: 0;
+    background: 0 0;
+    -webkit-appearance: none;
+    outline: 0
+}
+.ui-switch input:before {
+    content: '';
+    width: 0.906rem;
+    height: .4rem;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    border-radius: 0.27rem;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border-color: #dfdfdf;
+    -webkit-box-shadow: #dfdfdf 0 0 0 0 inset;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    -webkit-transition: border .4s,-webkit-box-shadow .4s;
+    transition: border .4s,box-shadow .4s;
+    -webkit-background-clip: content-box;
+    background-clip: content-box
+}
+
+.ui-switch input:checked:before {
+    border-color: #64bd63;
+    -webkit-box-shadow: #64bd63 0 0 0 0.16rem inset;
+    box-shadow: #64bd63 0 0 0 0.16rem inset;
+    background-color: #64bd63;
+    transition: border .4s,box-shadow .4s,background-color 1.2s;
+    -webkit-transition: border .4s,-webkit-box-shadow .4s,background-color 1.2s;
+    background-color: #64bd63
+}
+.ui-switch input:checked:after {
+    left: 0.533rem
+}
+.ui-switch input:after {
+    content: '';
+    width:.4rem;
+    height: .4rem;
+    position: absolute;
+    top: 44%;
+    left: 0;
+    -webkit-transform:translateY(-50%);
+    border-radius: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.01rem 0.03rem rgba(0,0,0,.4);
+    box-shadow: 0 0.01rem 0.03rem rgba(0,0,0,.4);
+    -webkit-transition: left .2s;
+    transition: left .2s
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

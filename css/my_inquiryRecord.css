@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+.clear{ clear:both;}
+.hr{ height:0.133rem; background:#f0eff5;}
+.hr_two { background:#e6e6e6; height:1px;}
+
+/*内容块*/
+.center{ width:94.66%; margin:0 auto; clear:both; margin-top:0.4rem;}
+.center_top{ padding-bottom:0.4rem; border-bottom:1px solid #e6e6e6;}
+.img img{ width:1.853rem; height:1.853rem; float:left;}
+.right{ min-height:1.853rem; float:left; width:80.28%;}
+.information{ height:0.48rem; margin-top:0.2133rem; clear:both;}
+.name{ float:left; font-size:0.48rem; text-indent:0.36rem;}
+.name span{ font-size:0.48rem; line-height:0.48rem; color:#1a1a1a;}
+.time{ font-size:0.373rem; float:right;}
+.time span{ color:#333; font-size:0.373rem; display:inline-block; line-height:0.373rem; margin-top:0.173rem;}
+
+.answer{ font-size:0.4rem; width:100%; margin-top:0.52rem;}
+.answer span{ color:#999; font-size:0.4rem; width:100%; display:inline-block; text-indent:0.36rem;}
+
+.but_right{ float:right; margin:0.28rem 0;}
+.but span{ display:inline-block; width:1.706rem; height:0.746rem; line-height:0.746rem; font-size:0.4rem; color:#0ab807; text-align:center; border:1px solid #0ab807; border-radius:0.12rem; margin-left:0.266rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

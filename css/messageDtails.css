@@ -1,0 +1,39 @@
+
+/*头部*/
+.header .arrowLeft{
+    position:absolute;
+    left:0;
+    bottom:0.32rem;
+    width:0.266rem;
+    height:0.506rem;
+    background:url('../img/arrowLeft.png') no-repeat;
+    background-size:cover;
+}
+.header .register{
+    color:#fff;
+    font-size:0.4rem;
+    position:absolute;
+    right:0;
+    top:0.04rem;
+}
+/*主体*/
+body{background-color: #fff;}
+body article{
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    padding:0.4rem 0;
+}
+article section{
+    width:92%;
+    margin:0 auto;
+}
+section h1{font-size:0.43rem;color:#1a1a1a;font-weight:normal;}
+section span{
+    display: block;
+    font-size:0.37rem;
+    color:#808080;
+    margin:0.32rem 0 0.28rem 0;
+}
+section span b{font-weight:normal;padding-left:0.2rem;}
+section p{font-size:0.4rem;line-height:0.72rem;color:#4c4c4c;}

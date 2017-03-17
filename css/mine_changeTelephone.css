@@ -1,0 +1,33 @@
+article{width:86.4%;margin:1.12rem auto;}
+.telephoneNumber,.code{
+    height:0.6rem;
+    font: 0.4rem/0.6rem 'Microsoft YaHei';
+    background-color: #fff;
+    border:1px solid #e6e6e6;
+    border-radius:0.12rem;
+    padding:0.28rem 0 0.28rem 2.9%;
+/*    padding-left:2.9%;*/
+}
+.telephoneNumber{width:97%;}
+.toCode{width:100%;overflow: hidden;margin:0.54rem 0 1.53rem;}
+.toCode .code{float:left;width:63.1%;}
+.toCode .getCode,.toCode .codeTime{
+    float:right;
+    width:31%;
+    height:1.16rem;
+    text-align: center;
+    border-radius:0.12rem;
+}
+.toCode .getCode{font: 0.4rem/1.16rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;color:#fff;background-color:#00c20c;}
+.toCode .codeTime{display:none;font: 0.36rem/1.16rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;color:#808080;background-color:#d9d9d9;}
+.codeTime b{font-weight: normal;}
+.submit{
+    display: inline-block;
+    width:100%;
+    height:1.16rem;
+    font: 0.42rem/1.16rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+    background-color: #d9d9d9;
+    color:#808080;
+    border-radius:0.12rem;
+    text-align: center;
+}

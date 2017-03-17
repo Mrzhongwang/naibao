@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+.map{ width:92%; margin:0 auto;}
+
+.center{ min-height:2.133rem; border-bottom:1px solid #e6e6e6; position:relative;}
+.explain{ font-size:0.426rem; color:#1a1a1a; padding-top:0.52rem; padding-bottom:0.413rem;}
+.time{ font-size:0.346rem; color:#808080; line-height:0.346rem;}
+.frequency{ font-size:0.426rem; position:absolute; line-height:0.426rem; top:0; color:#333333; height:2.133rem; line-height:2.133rem; width:100%;}
+.frequency div{ float:right; display:inline-block;}
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

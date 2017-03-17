@@ -1,0 +1,47 @@
+body{background: #fff;}
+article{position:relative;z-index:100;}
+.neborHeader{
+    width:40%;
+    margin:2.46rem auto 0.6rem auto;
+    height:3.3rem;
+    background: url('../img/neborApp.png') no-repeat;
+    background-size:100% 3.3rem;
+}
+.text{color:#00c20c;font-size:0.48rem;text-align: center;}
+.toMargin{margin-bottom: 1.08rem;}
+.APPDownload{
+    width:46.8%;
+    height:1.16rem;
+    margin:0.68rem auto 0 auto;
+    position:relative;
+}
+.android{color:#00c20c;border:1px solid #00c20c;border-radius:0.24rem;}
+.iphone{color:#555;border:1px solid #555;border-radius:0.24rem;}
+.android b{
+    display: inline-block;
+    width:1.16rem;
+    height:1.16rem;
+    background: url('../img/android.png') no-repeat;
+    background-size:1.16rem 1.16rem;
+}
+.iphone b{
+    display: inline-block;
+    width:1.08rem;
+    height:1.16rem;
+    background: url('../img/ios.png') no-repeat;
+    background-size:1.08rem 1.16rem;
+}
+.APPDownload span{
+    font-size:0.38rem;
+    position:absolute;
+    left:31.7%;
+    top:0.36rem;
+}
+footer{position:fixed;z-index:10;bottom:0;}
+.backgroundMother{
+    width:6.57rem;
+    height:9.34rem;
+    background: url('../img/mother.png') no-repeat;
+    background-size:6.57rem 9.34rem;
+    margin-left:15.2%;
+}

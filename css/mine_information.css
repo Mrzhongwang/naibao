@@ -1,0 +1,75 @@
+body section{
+    width:100%;
+    background:#fff;
+    margin:0.13rem 0 ;
+}
+section a{
+    display:block;
+    width:92%;
+    margin:0 auto;
+    height:1.22rem;
+    /*line-height:1.22rem;*/
+    border-bottom:1px solid #e6e6e6;
+    background:url("../img/arrowRight.png") right center no-repeat;
+    background-size:0.2rem 0.36rem;
+    position:relative;
+}
+section a.noBackground{background:none;}
+/*遮罩层*/
+#mask{width:100%;background-color:#000;position: absolute;z-index:10;opacity: 0.5;display: none;}
+/*头像信息*/
+section a.perMessage{height:1.87rem;border:none;}
+section a.perMessage span{display:table-cell;width:9.24rem;height:1.88rem;vertical-align:middle;}
+section a.perMessage img{width:1.46rem;height:1.46rem;border-radius:0.12rem;vertical-align: middle;}
+section a h1{display:inline-block;width:7.32rem;margin-left:0.36rem;color:#333;font: 0.42rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;line-height:1.22rem;}
+section a.noBorder{border:none;}
+/*主体信息*/
+section a span{font:0.42rem/1.22rem 'Microsoft YaHei';height:1.22rem;}
+.lt{float:left;}
+.rt{float:right;color:#999;margin-right:0.44rem;}   
+/*弹窗*/
+footer{width:100%;height:4.58rem;position:fixed;bottom:0;z-index:20;background-color: #ece3e4;display:none;}
+/*footer .minmask{width:100%;height:4.16rem;position:relative;;z-index:24;background-color: #ece3e4;}*/
+footer input,footer button{width:100%;position:absolute; background-color: #fff;}
+footer .inputCamera{top:0;left:0;z-index:22;height:1.2rem;}
+footer .inputImage{top:1.35rem;left:0;z-index:22;height:1.2rem;}
+footer button{font:0.48rem/1.33rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;height:1.48rem;}
+footer .camera{top:0;left:0;pointer-events: none;z-index:25;border-bottom:1px solid #e6e6e6;}
+footer .image{top:1.5rem;left:0;pointer-events: none;z-index:25;}
+footer .cancel{bottom:0;z-index:25;}
+/*换名字弹窗*/
+.changeName{
+    display: none;
+    width:66%;
+    height:4.44rem;
+    margin:0 auto;
+    border-radius:0.12rem;
+    background-color:#fff;
+    position:relative;
+    /*top:-6.16rem;*/
+    top:-6.16rem;
+    z-index:20;
+}
+.changeName h3{text-align:center;height:1.2rem;font:0.42rem/1.2rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;color:#808080;border-bottom: 1px solid #e5e5e5;}
+.changeName p{height:1.25rem;width:5.6rem;margin:0 auto;border-bottom:0.03rem solid #0ab807;position:relative;}
+.changeName p input,.changeName p b{position:absolute;}
+.changeName p input[type='text']{
+    font:0.42rem/0.52rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+    height:0.52rem;
+    left:0.28rem;
+    width:4.44rem;
+    overflow: hidden;
+    bottom:0.1rem;
+}
+.changeName p b{
+    display: inline-block;
+    width:0.4rem;
+    height:0.4rem;
+    background:url('../img/across.png') no-repeat;
+    background-size:0.4rem 0.4rem;
+    right:0.28rem;
+    bottom:0.2rem;
+}
+.changeName .bt_left,.changeName .bt_right{position:absolute;bottom:0.32rem;width:2.68rem;height:0.92rem;border-radius:0.12rem;color:#fff;font-size:0.42rem;}
+.changeName .bt_left{  left:0.48rem;background-color: #bfbfbf;}
+.changeName .bt_right{  right:0.48rem;background-color: #2bc628;}

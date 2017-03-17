@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ background:#f0eff5; font-family:"微软雅黑";}
+
+/*上面部分*/
+.top_map{ background:#FFF; position:relative;}
+.usable_cash{ font-size:0.4rem; color:#808080; line-height:0.4rem; padding-top:0.853rem; margin-left:3.86%;}
+.num{ font-size:0.853rem; line-height:0.853rem; margin-left:3.86%; color:#f3450f; margin-top:0.386rem;}
+.button{ height:0.773rem; font-size:0.4rem; line-height:0.773rem; margin-top:0.826rem; padding-bottom:0.253rem; position:relative; z-index:2;}
+.button span{ display:inline-block; height:0.773rem; width:1.733rem; text-align:center; background:#51d74e; color:#fff;}
+.button span:first-child{ margin-left:59.2%; border-radius:0.106rem;}
+.button span:last-child{ margin-left:2.666%; border-radius:0.106rem;}
+.Purse_Small{ position:absolute; top:1.626rem; left:58.66%;}
+.Purse_Small img{ width:2rem; height:2.586rem;}
+.Purse_big{ position:absolute; left:80.26%; top:0.066rem;}
+.Purse_big img{ width:1.893rem; height:4rem;}
+
+.big_map{ background:#fff; margin-top:0.1733rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

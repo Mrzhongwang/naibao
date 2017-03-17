@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+img{ vertical-align:middle;}
+body{ font-family:"微软雅黑";}
+.hr{ height:1px; background:#cacaca;}
+.banner{ margin-top:0.773rem; margin-left:1.093rem; width:7.893rem; height:7.28rem; overflow:hidden; background:#fff;}
+.banner img{ width:7.893rem; height:6.653rem; background:#fff;}
+
+.swiper-pagination-white{ color:#093;}
+.hr_two{ height:1px; background:#cacaca; margin-top:0.693rem; margin-bottom:1.013rem;}
+/*文字内容*/
+.text{ font-size:0.346rem; width:92.22%; margin:0 auto;}
+.text_name{  line-height:0.346rem; margin-top:0.986rem;}
+.product_name{ color:#808080; margin-right:0.4rem;}
+.text_attending{ margin-top:0.826rem;}
+.attending{ line-height:0.666rem;}
+
+footer{ min-height:1.613rem; background:#efefef; font-size:0.32rem; color:#1f1f1f;}
+footer div{ padding-top:0.147rem; width:94%; margin:0 auto;}
+footer .img{ padding-left:0.293rem; padding-right:0.386rem;}
+footer img{ width:0.32rem; height:0.32rem; position:relative; top:-0.04rem;}
+footer span{ line-height:0.666rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

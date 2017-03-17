@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+html{-webkit-tap-highlight-color:transparent;}
+body{ font-family:"微软雅黑"; width:100%; overflow:hidden;background-color:#f0eff5 ;}
+ul li{ list-style:none;}
+a{ text-decoration:none;}
+img{ vertical-align:middle;}
+.lt{ float:left;}
+.rt{ float:right;}
+.clear{ clear:both;}
+header{ position:fixed; top:0; width:100%; z-index:20; background:#fff; height:2.08rem;border-bottom: 1px solid #eee;}
+/*.search{ width:89.2%; margin:0 auto; position:relative; margin-top:0.24rem; }*/
+/*.search .s_img{ position:absolute; left:26%; z-index:3; top:1px;}*/
+/*.search .s_img img{ width:0.36rem; height:0.76rem; position:absolute;}*/
+/*.search .s_input{width:100%; height:0.76rem; border:1px solid #00c20c; border-radius:0.12rem;}*/
+/*.search input{outline:none; width:100%; border:none; font-size:0.34rem; text-indent:31%; height:0.34rem; position:absolute;  border-radius:0.12rem;padding:0.21rem 0;}*/
+
+.search{width:89.2%; height:0.76rem; margin:0.24rem auto 0 auto;border:1px solid #999;border-radius:0.08rem;position:relative;}
+.searchBox img{display: inline-block;width:0.36rem;height:0.75rem;position:absolute;top:0.01rem;right:0;}
+.searchBox{display:inline-block; width:24.2%;height:0.76rem;position:absolute;top:0;left:0;}
+.inputBox{font-family:"微软雅黑"; border:none;outline:none;width:72.6%; height:0.34rem; padding:0.21rem 2% 0.21rem 0; font-size:0.34rem;position: absolute;top:0;right:0;background-color: transparent;}
+
+/*接诊导航*/
+.nav { padding-top:0.48rem; color:#999; min-height:0.48rem; width:89.46%; margin:0 auto; position:relative;}
+.nav>div{ font-size:0.426rem; line-height:0.426rem; float:left;}
+.nav_one{left:0;}
+.nav_two{ margin-left:21.97%}
+.nav .nav_three{ float:right;}
+.nav_three img{ width:0.29rem; height:0.30rem; margin-left:0.15rem; position:relative; top:-0.05rem;}
+.active{ color:#333;}
+
+/*.hr{ border-bottom:1px solid #e5e5e5; position:relative;}*/
+/*.hr div{ height:2px; background:#00c20c; width:17.6%; margin-left:5.066%;}*/
+
+
+/*这是医生筛选下拉列表部分*/
+.up_nav{ display:none;position:relative;z-index:1000;}
+.up_hr{ height:1px; background:#e5e5e5;}
+.up_nav ul li{ width:100%; height:0.866rem; border-bottom:1px solid #e5e5e5; text-indent:10.133%; background:#fff; position:relative;}
+.up_nav ul li div{ color:#999; font-size:0.346rem;}
+.up_text{  position:absolute; line-height:0.346rem; top:0.28rem;}
+.hook{ float:right; line-height:0.24rem; margin-top:0.32rem; margin-right:0.72rem; display:none;}
+.hook img{ width:0.293rem; height:0.24rem; }
+
+
+/*这是遮屏部分*/
+#Shield{ width:100%; position:fixed; height:15rem; background:#000; z-index:19; opacity:0.7; top:0; display:none;}
+
+
+/*医生内容部分*/
+section{ background:#f0eff5; margin-top:2.08rem; width:100%; overflow-y:scroll;overflow-x: hidden;-webkit-overflow-scrolling: touch;overflow-scrolling: touch;}
+.sec{ width:97.33%; margin:0.1rem auto; background:#fff; border-radius:0.106rem;}
+.sec_lt{ margin-left:0.4rem; padding-top:0.36rem; position:relative;}
+.docter img{ width:1.853rem; height:1.853rem;}
+.evaluate{  padding-bottom:0.266rem; font-size:0.12rem; margin-bottom:0.24rem;}
+.evaluate img{ width:1.813rem; position:relative; top:0.2rem;}
+.online{ font-size:0.266rem; position:absolute; top:1.933rem; left:1.12rem;}
+.online span{ display:inline-block; height:0.346rem; background:#00c20c; color:#fff; width:0.773rem; line-height:0.4rem; text-align:center; border-radius:0.12rem; font-size:0.266rem;}
+
+
+.sec_rt{ font-size:0.4rem; padding-top:0.36rem; margin-left:0.36rem;}
+.rt_one{ font-size:0.453rem; color:#000; line-height:0.453rem;}
+.rt_one span{ padding-right:0.293rem;}
+.rt_two,.rt_three,.rt_four{ color:#999; font-size:0.373rem; line-height:0.373rem;}
+.rt_two{ margin-top:0.213rem;}
+.rt_two span{ margin-right:0.15rem;}
+.rt_active{ display:inline-block; width:1.68rem; height:0.48rem; text-align:center; line-height:0.54rem; margin-top:0.253rem; background:#f3f8e7; border:1px solid #bbeda0; border-radius:0.04rem; margin-right:0.253rem;}
+.rt_four{ margin-top:0.28rem;}
+.price{ color:#000;}
+.sec_hr{ height:1px; background:#ebebeb; width:92%; margin:0 auto;}
+
+
+.sec_last{ width:92%; margin:0 auto; margin-top:0.146rem; padding-bottom:0.16rem; height:0.773rem; position:relative;}
+.sl_mun,.sl_man{ font-size:0.373rem; color:#999; position:absolute;}
+.sl_mun{ top:0.23rem; left:0.053rem; line-height:0.373rem;}
+.sl_man{ color:#000; line-height:0.373rem; left:1.94rem; top:0.23rem;}
+.sl_sak{ font-size:0.4rem; display:inline-block; width:1.733rem; height:0.773rem; background:#00c20c; color:#fff; text-align:center; line-height:0.4rem; border-radius:0.12rem; float:right; margin-top:0.01rem; position:relative;}
+.sl_sak span{ display:inline-block; position:absolute; top:0.215rem; left:0.48rem;}
+
+/* 底部栏*/
+/*页脚*/
+footer{
+    width:100%;
+    height:1.3rem;
+    background:#fff;
+    border-top:1px solid #e6e6e6;
+    position:fixed;
+    left:0;
+    bottom:0;
+    z-index:15;
+}
+footer ul{
+    width:81%;
+    margin:0 auto;
+    height:0.5rem;
+    /*    padding-top:0.8rem*/
+}
+footer ul li{
+    float:left;
+    width:30%;
+    text-align:left;
+    padding-top:0.16rem;
+}
+footer ul li:last-child{width:10%;}
+footer ul li a{
+    float:left;
+    width:0.67rem;
+    height:0.52rem;
+    padding-top:0.66rem;
+    background:url("../img/iconlist.png") no-repeat;
+    background-size:10.08rem 1.25rem ;
+    color:#999;
+    font-size:0.29rem;
+    text-align: center;
+}
+footer ul li a.function_1{background-position:-3.41rem -0.31rem;}
+footer ul li a.function_2{background-position:-4.38rem -0.31rem;}
+footer ul li a.function_3{background-position:-6.28rem -0.31rem;}
+footer ul li a.function_4{background-position:-1.18rem -0.3rem;}
+/*footer ul li span{color:#d0d0d0;font-size:0.29rem;}*/
+footer ul li a.function_1{ color:#00cc00;}
+
+
+.busyness { left:0.93rem; }
+.busyness span{ background:#ffb400; width:1.02rem;}
+.offline span{ background:#808080;}
+.sak_busyness{ background:#ffb400;}
+.sak_offline{ background:#808080;}
+
+/*滚动条*/
+.swiper-container-horizontal>.swiper-scrollbar{top:2.08rem;height:0.08rem;position:fixed;left:1%;z-index:100;}
+.swiper-scrollbar-drag{background: #afafaf;height:0.08rem;}
+
+/*新增*/
+.sign{width:100%;overflow-y: scroll;}
+.sec_map{display: block;width:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

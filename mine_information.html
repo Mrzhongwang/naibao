@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的资料</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <link type="text/css" rel="stylesheet" href="css/public.css"/>
+    <link type="text/css" rel="stylesheet" href="css/mine_information.css"/>
+</head>
+<body>
+<div id="mask" ></div>
+<!-- <header>
+    <hgroup class="header">
+        <a class="arrowLeft" href="mine.html"></a>
+        <span>我的资料</span>
+    </hgroup>
+</header> -->
+<section>
+       <a class="perMessage noBackground">
+           <span><img src="img/header_1.jpg"/><h1 limit="16">Winnie</h1></span>
+       </a>
+</section>
+<section>
+     <a  href="mine_changeTelephone.html"><span class="lt">我的手机号</span><span class="rt">13800138000</span></a>
+     <a  href="APP_Download.html"><span class="lt">我的宝宝</span></a>
+     <a  class="noBorder" href="mine_address.html"><span class="lt">我的地址</span></a>
+</section>
+<section>
+     <a  href="mine_weixin.html"><span class="lt">微信号</span><span class="rt">594562372</span></a>
+     <a  href="mine_QQ.html"><span class="lt">QQ号</span><span class="rt">594562372</span></a>
+     <a  class="noBorder" href="mine_weibo.html"><span class="lt">微博</span><span class="rt">Winnie</span></a>
+</section>
+<!-- 头像改变 -->
+<!--<footer>
+    <form>
+        <input type="file" accept="image/*" capture="camera" class="inputCamera" id="img">
+        <button class="camera">拍照</button>
+        <input type="file" accept="image/*" class="inputImage">
+        <button class="image">从相册选择</button>
+        <button class="cancel">取消</button>
+    </form>
+    &lt;!&ndash;<div class="minmask"></div>&ndash;&gt;
+</footer>-->
+<!-- 编辑姓名 -->
+<div class="changeName">
+    <form>
+        <h3>编辑姓名</h3>
+        <p>
+            <input type="text"  limit="16" placeholder="请输入新昵称"/><b></b>
+        </p>
+        <input type="button" class="bt_left" value="取消" />
+        <input type="submit" class="bt_right" value="确定" />
+    </form>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/js2.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/mine_information.js"></script>
+</body>
+</html>

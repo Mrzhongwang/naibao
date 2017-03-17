@@ -1,0 +1,57 @@
+input,button,select,textarea{outline:none;border:0;}
+*{ margin: 0; padding: 0;}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* 禁用iPhone中Safari的字号自动调整 */
+html { -webkit-text-size-adjust: none; }
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section { display: block; }
+/* 设置图片视频等自适应调整 */
+img { max-width: 100%; height: auto; width: auto; /* ie8 */ }
+.video embed, .video object, .video iframe { width: 100%; height: auto; }
+
+
+body{width:100%;background-color:#f0eff5;font-family:'Microsoft YaHei'; }
+ul,ol { list-style: none; }
+
+/*input[disabled]{-webkit-text-fill-color:#fff; -webkit-opacity: 1;}*/
+input,button,select,textarea{outline:none;border:0;}
+/*input[type="button"],input[type="submit"]{-webkit-appearance: none;}*/
+input{appearance:button; /*解决苹果手机上边框阴影及按钮格式自带样式*/
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+}
+header{width:100%;height:1.2rem;background-color:#36353b;}
+a,a:hover{text-decoration:none;color:#333;}
+
+/*点击没闪*/
+html{-webkit-tap-highlight-color:transparent;}
+
+/*隐藏滚动条*/
+::-webkit-scrollbar{
+    width:0;
+}
+::-webkit-scrollbar-track {
+    width:0;
+} /* 滚动条的滑轨背景颜色 */
+::-webkit-scrollbar-thumb {
+    width:0;
+} /* 滑块颜色 */
+
+::-webkit-scrollbar-button {
+    width:0;
+} /* 滑轨两头的监听按钮颜色 */
+
+::-webkit-scrollbar-corner {
+    width:0;
+} /* 横向滚动条和纵向滚动条相交处尖角的颜色 */
+

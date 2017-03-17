@@ -1,0 +1,20 @@
+section{width:100%;background-color: #fff;overflow: hidden;}
+.area{border-bottom:1px solid #e6e6e6;margin-top:0.28rem;}
+.area span,.detail span{
+    float:left;
+    padding-left:4%;
+    width:20.8%;
+    color:#808080;
+    font:0.42rem/1.32rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+}
+.area #demo1,.detail .textArea{
+    float:right;
+    color:#1a1a1a;
+    width:75.2%;
+}
+.area #demo1{font:0.42rem/1.32rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;}
+.detail .textArea{
+    word-break:break-all;
+    padding:0.27rem 0;
+    font:0.42rem/0.76rem 'Microsoft YaHei', "Georgia", Helvetica, Arial, sans-serif;
+}
